@@ -166,7 +166,7 @@ class DoubleLinkedLinkd:
         enlace_importante = nodo_actual.previous_node
         nodo_actual.previous_node = nodo_actual.next_node
         nodo_actual.next_node = enlace_importante
+        nodo_actual.value = math.pow(nodo_actual.value,2)
         nodo_actual = nodo_actual.previous_node
       self.head = enlace_importante.previous_node
       self.head.value = math.pow(self.head.value,2)
-      self.tail.value = math.pow(self.tail.value,2)
