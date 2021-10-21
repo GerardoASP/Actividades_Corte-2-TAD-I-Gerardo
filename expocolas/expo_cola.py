@@ -12,13 +12,14 @@ class Cola:
   
   #Metodo #2: descolar un elemento de la cola
   def desencolar(self):
-    if self.es_vacia():
-      print('La cola ya no tiene elementos')
-    else:
+    if self.es_vacia() == False:
       return self.items.pop(0)
+    else:
+      print('La cola ya no tiene elementos')
+  
   #Metodo #3: Validar si la esta vacía
   def es_vacia(self):
-    return print(self.items == [])
+    return self.items == []
   
   #Metodo #4: Cantidad de elementos de la cola
   def cantidad_elementos(self):
