@@ -53,14 +53,14 @@ class Circular_Liked_List:
     self.length += 1
   
   #Punto 2
-  def insert(self):
-    indice = int(input('Digite el indice del nodo a agregar: '))
-    contador = 0
-    intentos = 3
-    if indice == 0:
-      value = int(input('Digite el valor a agregar: '))
-      return self.unshift(value)
-    elif indice == self.length -1:
-      value = int(input('Digite el valor a agregar: '))
-      while contador < intentos:
-        if 
+  #def insert(self):
+    #indice = int(input('Digite el indice del nodo a agregar: '))
+    #contador = 0
+    #intentos = 3
+    #if indice == 0:
+      #value = int(input('Digite el valor a agregar: '))
+      #return self.unshift(value)
+    #elif indice == self.length -1:
+      #value = int(input('Digite el valor a agregar: '))
+      #while contador < intentos:
+        #if 

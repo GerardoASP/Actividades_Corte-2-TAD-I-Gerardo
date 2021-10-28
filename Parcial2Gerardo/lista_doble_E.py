@@ -35,14 +35,36 @@ class DoubleLinkedList:
     return print(new_node.value)
 
   #punto 1
-  def append2(self):
-    value = int(input('Digite un numero: '))
-    contador = 3
-    current_node = self.head
+  #def append2(self):
+    #value = int(input('Digite un numero: '))
+    #contador = 3
+    #current_node = self.head
     #new_node = self.Node(value)
-    while current_node != None:
-      if current_node
-      current_node = current_node.next
+    #while current_node != None:
+      #if current_node
+      #current_node = current_node.next
   
-  
+  #punto 1
+  def append3(self):
+    contador_nodos = 0
+    cant_nodos = int(input('Digite la cantidad de nodos: '))
+    while contador_nodos < cant_nodos:
+      value = int(input('Digite un numero: '))
+      contador = 3
+      new_node = self.Node(value)
+      current_node = self.head
 
+      if self.head == None and self.tail == None:
+        self.head = new_node
+        self.tail = self.head
+      else:
+        while current_node != None:
+          if value == current_node.prev.value + contador:
+            self.append(value)
+          else:
+            print('No se puede agregar ese valor: ')
+          contador += 2
+          current_node = current_node.next
+      
+      contador_nodos += 1
+    
