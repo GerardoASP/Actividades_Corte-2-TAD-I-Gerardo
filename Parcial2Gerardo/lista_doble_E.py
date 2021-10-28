@@ -33,7 +33,16 @@ class DoubleLinkedList:
       self.tail = new_node
     self.length += 1
     return print(new_node.value)
+
+  #punto 1
+  def append2(self):
+    value = int(input('Digite un numero: '))
+    contador = 3
+    current_node = self.head
+    #new_node = self.Node(value)
+    while current_node != None:
+      if current_node
+      current_node = current_node.next
   
   
-  
-  
+

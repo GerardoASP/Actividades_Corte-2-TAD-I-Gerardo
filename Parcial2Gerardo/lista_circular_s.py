@@ -52,6 +52,7 @@ class Circular_Liked_List:
       self.head = nuevo_nodo
     self.length += 1
   
+  #Punto 2
   def insert(self):
     indice = int(input('Digite el indice del nodo a agregar: '))
     contador = 0
